@@ -1,3 +1,4 @@
+
 /* NAVBAR
 -------------------------------------------------- */
 
@@ -11,7 +12,7 @@
 /* Carousel base class */
 .carousel {
   height: 240px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -46,7 +47,8 @@
 -------------------------------------------------- */
 
 .marketing {
-  margin: 60px auto;
+  margin: 0 auto;
+  height: 300px;
 }
 
 .marketing .col-md-4 {
@@ -60,6 +62,11 @@
   border-radius: 50%;
   padding: 40px;
   color: #444;
+  margin-top: 20px;
+}
+
+.col-md-4  h2, .col-md-4 p {
+  color: white;
 }
 
 
@@ -87,7 +94,60 @@ footer {
   color: white;
   text-shadow: 1px 1px 1px black;
   padding: 40px 0;
+  text-align: center;
 }
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+.icon {
+  margin: 0 0 0 32px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 28px;
+}
+
+#SkypeButton_Call_sebek3257_1 {
+  display: inline-block;
+}
+
+.icon:hover, #SkypeButton_Call_sebek3257_1:hover {
+  transform: scale(1.1); 
+}
+
+
+
+.style-five {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.container p {
+  font-size: 18px;
+}
+
+.middle {
+  margin: 50px auto;
+  width: 30%;
+}
+
+.background {
+  background-image: url("images/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+footer a:hover {
+    text-decoration: none;
+}
+footer a {
+    color: gray;
+}
+
+.col-md-8 {
+  margin-top: 40px;
+}
+
+.col-md-8 p {
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
